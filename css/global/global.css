@@ -1,0 +1,13 @@
+body,
+ul {
+    margin: 0;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+body {
+    font-family: roboto;
+}
