@@ -37,3 +37,24 @@
     text-align: right;
     font-size: 1rem;
 }
+
+.header .menu a {
+    text-decoration: none;
+    color: var(--usual-light);
+    position: relative;
+}
+
+.header .menu a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0%;
+    background-color: var(--usual-light);
+    margin-top: 2px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.header .menu a:hover::after {
+    width: 100%;
+}

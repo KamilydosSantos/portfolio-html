@@ -1,9 +1,10 @@
 .introduction {
-    margin-top: 150px;
+    padding-top: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .introduction h1 {
