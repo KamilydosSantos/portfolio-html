@@ -22,11 +22,16 @@
     height: 110px;
     padding: 20px;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 .skills-items ul li:hover {
     background: linear-gradient(270deg, var(--emphasize-light), var(--emphasize-dark));
 }
+
+.skills-items ul li:hover img {
+    filter: invert();
+} 
 
 
 .skills-descriptions ul {
