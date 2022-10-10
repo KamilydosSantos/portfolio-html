@@ -1,20 +1,16 @@
 
-const skillsItems = document.querySelectorAll('.hoverLight'); //seleciona a lista das imagens
-const skillsDescriptions = document.querySelectorAll('.skills-descriptions ul li');
-
-function hoverLight() {
-    skillsItems.innerHTML = 'oi';
-}
-
-skillsItems.forEach(item => {
-    item.addEventListener('click', hoverLight); //para cada item da lista, adiciona o evento de click e chama a funcao
-});
+const skillsItems = document.querySelectorAll('.skills-items li');
+const skillsDescriptions = document.querySelectorAll('.skills-descriptions li');
 
 function activeSkill(index) {
     skillsDescriptions.forEach(item => {
-        item.classList.remove('');
+        item.classList.remove('active');
     });
     skillsDescriptions[index].classList.add('active');
+    skillsItems.forEach(item => {
+        item.classList.remove('focus');
+    });
+    skillsItems[index].classList.add('focus');
 }
 
 skillsItems.forEach((itemMenu, index) => {

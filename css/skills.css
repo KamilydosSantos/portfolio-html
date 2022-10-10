@@ -29,14 +29,30 @@
     background: linear-gradient(270deg, var(--emphasize-light), var(--emphasize-dark));
 }
 
-.skills-items ul li:hover img {
-    filter: invert();
+.skills-items ul li:hover path {
+    fill: var(--usual-light);
 } 
 
 
 .skills-descriptions ul {
     list-style: none;
     color: var(--usual-light);
+}
+
+.skills-descriptions li {
+    display: none;
+}
+
+.skills-descriptions .active {
+    display: block;
+}
+
+.focus {
+    background: linear-gradient(270deg, var(--emphasize-light), var(--emphasize-dark));
+}
+
+.focus path {
+    fill: var(--usual-light);
 }
 
 .skills-descriptions p {
