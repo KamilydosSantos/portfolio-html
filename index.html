@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Portfolio - Kamily dos Santos</title>
-        <meta name="description" content="Portfolio de Kamily dos Santos, desenvolvedora Front-End Junior.">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./css/style.css" >
+    <title>Portfolio - Kamily dos Santos</title>
+    <meta name="description" content="Portfolio de Kamily dos Santos, desenvolvedora Front-End Junior.">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="header-bg">
-            <div class="header container">
-                <a class="logo" href="#introduction"><img src="./assets/ks_.svg" alt="" height="40px"></a>
-                <nav>
-                    <ul class="menu">
-                        <li id="introduction">início</li>
-                        <li id="skills">habilidades</li>
-                        <li id="projects">projetos</li>
-                    </ul>
-                </nav>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="header container">
+            <a class="logo" href="#introduction"><img src="./assets/ks_.svg" alt="" height="40px"></a>
+            <nav>
+                <ul class="menu">
+                    <li id="introduction">início</li>
+                    <li id="skills">habilidades</li>
+                    <li id="projects">projetos</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/kamily-dos-santos-b0304a176/" target="_blank"><img src="./assets/background-link1.svg" alt="" width="85px">
+                <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35" cy="35" r="33" stroke="#2E2E2E" stroke-width="4" />
+                    <path d="M25.5 27.5H17.5V48.5H25.5V27.5Z" fill="#2E2E2E" />
+                    <path d="M38 27.5H30.5V48.5H38.5V36C38.8333 35.1667 40 33.5 42 33.5C44 33.5 44.5 35.1667 44.5 36V48.5H52.5V33C51 24.0001 38 27 38 31V27.5Z" fill="#2E2E2E" />
+                    <ellipse cx="21.5" cy="21" rx="4.5" ry="4" fill="#2E2E2E" />
+                </svg>
+            </a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/KamilydosSantos" target="_blank"><img src="./assets/background-link2.svg" alt="" width="85px">
+                <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35" cy="35" r="33" stroke="#2E2E2E" stroke-width="4" />
+                    <path d="M46 65C42.4 67.8 29 68 24 65C25.1667 65 27.5 64.5 27.5 63.5V57.5C26 57.5 19.4212 59.5529 17 53.5C16 51 14.5 49 13 48.5C12.5 48.5 11.5 47 13.5 47C13.5 47 16.277 47.0782 17.5 49C20.9694 54.452 22.9649 54.0083 27.3826 53.0261L27.5 53C27.5 52 28 49.5 29.5 48.5C20 48.5 15.5 42.5 15.5 33.5C15.5 29.5 17 26.5 18.5 25C17.5 21.5 18 18.5 19 17C21.5 17 24 17.5 27 20C32.5 18.5 37 18.5 43 20C46 17.5 48 17 51 17C51.8333 18.3333 52.5 22 51.5 25C53 26.5 54.1666 28.5 54.5 33.5C55 41 51 48 40.5 48.5C41.7 48.9 42.5 51.5 42.5 53V63.5C42.5 64.7 44.8333 65 46 65Z" fill="#2E2E2E" />
+                </svg>
+            </a>
+        </div>
+    </article>
+
+    <main class="introduction container">
+        <div class="introduction-image">
+            <img src="./assets/introduction-image.svg" alt="" width="700px">
+        </div>
+        <div>
+            <p>Olá, me chamo</p>
+            <h1>Kamily dos Santos</h1>
+            <h2>Front-End Developer Jr</h2>
+            <p>Comecei meus estudos na área de tecnologia no ano de 2018, ao iniciar o curso integral de informática. Durante a pandemia comecei a me aprofundar na parte de Web Design.</p>
+            <a class="button usual-light"><img src="./assets/donwload.svg" alt="" height="16px">Curriculum</a>
+        </div>
+    </main>
+
+    <section class="skills-bg">
+        <div class="skills container">
+            <h1>Habilidades</h1>
+            <div class="skills-items">
+                <ul>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H103L94.5 99L55 110L15.5 99L7 0ZM24.5 20H85L84 32.5H38L39 45H83L80 82L55 89L30 82L28.5 62.5H40.5L41.5 72.5L55 76.5L68.5 72.5L70 57H28L24.5 20Z" fill="#2E2E2E" />
+                        </svg><span>HTML</span></li>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H103L94.5 99L55 110L15.5 99L7 0ZM85.5 20H24.5L25.5 31.5H72.5L71.5 44L26.5 44.5L27.5 56H70.5L68.5 73L55 76.5L41.5 73L40.5 62.5H28.5L30 82L55 89L80 82L85.5 20Z" fill="#2E2E2E" />
+                        </svg><span>CSS</span></li>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M98.5 34L88 41.5C83 32 72 34 72 41.5C72 53 102.5 52.5 102.5 75C102.5 90 93.5 96.5 82 97.5C70.5 98.5 60 92 54 82L65.5 75C67.1667 78.5 72.5 84 79.5 84C85.5 84 89 80 89 76.5C89 63 58.5 67.5 58.5 41.5C58.5 25.5 74 22 78.5 22C83 22 90.5 21.5 98.5 34Z" fill="#2E2E2E" />
+                            <path d="M32.5 23H46.5V78.5C45.5 100.5 14.5 104.5 4.5 83.5L16 76.5C17 78.5 18 80.2857 20 82C23.5 85 31.1275 84.8917 32.5 77V23Z" fill="#2E2E2E" />
+                        </svg><span>JAVASCRIPT</span></li>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M59.5 2.99998L107.5 51.5C110 54 110 57 107.5 59.5L60.5 106.5C57.834 109.166 53.5 109.5 50.5 106.5C46.6948 102.695 17.5 73.6666 3.50001 59.5C1.02946 57 1.34303 53.6571 3.50001 51.5C6.5066 48.4933 26.3333 28.1667 36 18.5L48 30.5C46.5 34 47.5 39 52.5 41V70.5C47.5 73 46.3333 79 49 83C52.6667 88.5 61.2812 87 63 81.5C65.5 73.5 59.5 71 59.5 71V42L70.5 53C69 57 70 63.375 77.5 64C84.5 64.5833 88.114 56.921 84.5 51.5C80.8859 46.0789 74.5 48 74.5 48L63.5 36.5C65 30.5 61 24 53 26L40.5 13.5L51 2.99998C53.5 0.50001 57 0.500002 59.5 2.99998Z" fill="#2E2E2E" />
+                        </svg><span>GIT</span></li>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M107 32C99.0001 28.8428 85.8001 26 75.0001 32C59.5001 40.6111 63.2824 58.3912 73.5001 63.5C76.8997 65.1998 79.8948 66.3795 82.3675 67.3535C87.1683 69.2445 90.0001 70.3598 90.0001 73C90.0001 76 85.0001 79.5 69.0001 73C68.9161 72.9659 68.8266 72.9268 68.7334 72.8861C67.936 72.538 66.8582 72.0675 66.5001 73.5C66.1001 75.1 64.3334 82.5 63.5001 86C63.3493 86.633 63.5882 87.2465 64.0001 87.5C70.5001 91.5 76.8759 91.5 86.0001 91.5C96.9863 91.5 109.968 85.515 110 72.5488V72.4434C109.971 59.0111 99.6248 55.0452 94.1553 52.9487C93.7399 52.7894 93.3526 52.641 93.0001 52.5C92.0901 52.136 91.2298 51.8217 90.4312 51.5299C86.842 50.2186 84.5001 49.363 84.5001 46.5C84.5001 43 90.0001 43 93.5001 43.5C95.0667 43.7238 98.2565 44.8665 100.513 45.6749C101.822 46.1436 102.817 46.5 103 46.5C103.5 46.5 103.833 46.5 104 46C104.4 44.8 106.5 37.1667 107.5 33.5C107.5 33.0658 107.4 32.1578 107 32Z" fill="#2E2E2E" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.18136e-05 9.49998V89.8195C6.18136e-05 90.213 0.200062 91 1.00006 91H19.0001C19.4273 91.0464 20.3036 90.8752 20.3909 89.8195C20.4782 88.7639 20.4273 70.8333 20.3909 62C36.5001 62 60.5001 59.5 60.5001 33.5C60.5001 6.99998 29.7337 6.99998 29.5001 6.99998C16.5001 7 5.50006 7.99997 1.00006 8.49997C0.00617635 8.61041 -2.96795e-05 8.99997 6.18136e-05 9.49998ZM20.3909 45.5V23.5C21.0701 23.5 21.8263 23.4774 22.6356 23.4532C29.4419 23.25 40.0001 22.9346 40.0001 35C40.0001 45.8 26.9273 46.5 20.3909 45.5Z" fill="#2E2E2E" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M110 72.5L110 72.5488V72.4434L110 72.5Z" fill="#2E2E2E" />
+                        </svg><span>PHOTOSHOP</span></li>
+                    <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M77 0.5C82.3333 1.66667 93 7.3 93 20.5C93 28 91 32 84 38C90 43 93 46.5 93 56.5C93 68.5 81 75.5 72 75.5C69 75.5 63.5 74.5 58.5 70.5V91.5C58 100.5 50.5 109.5 37.5 109.5C23.5 109.5 16.5 99.5 16.5 90C16.5 81 22 75 26 72C23 69.5 16.5 65.1 16.5 55.5C16.5 45.9 22.8333 39.8333 26 38C22.8333 36 16.5 30.5 16.5 20.5C16.5 10.5 26.5 0.5 32 0.5H77ZM74.5 6.5H58.5V34H74.5C78.5 34 86.5 30.5 86.5 20.5C86.5 11.5 78.5 6.5 74.5 6.5ZM51.5 34V6.5H35C31 6.5 23.5 10.9 23.5 20.5C23.5 30.1 31 34 35 34H51.5ZM51.5 68.5V41H35C31 41 23.5 46 23.5 55.5C23.5 63.9 30.5 68.5 35 68.5H51.5ZM51.5 91.5V75.5H35C28.5 75.5 23 82.5 23 89.5C23 94.5 26 103 37.5 103C46.7 103 50.6667 95.3333 51.5 91.5ZM86.5 54.5C86.5 46.5 80 41 72 41C64 41 58.5 47 58.5 54.5C58.5 61.5 63 68.5 72 68.5C81 68.5 86.5 62.5 86.5 54.5Z" fill="#2E2E2E" />
+                        </svg><span>FIGMA</span></li>
+                </ul>
             </div>
-        </header>
+            <div class="skills-descriptions">
+                <ul>
+                    <li>
+                        <h2>HTML</h2>
+                        <p>Através de um documento HTML, ou seja, um documento com a extensão .html ou .htm., o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).
+                            Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.</p>
+                    </li>
+                    <li>
+                        <h2>CSS</h2>
+                        <p>é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+                            CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação para o site.</p>
+                    </li>
+                    <li>
+                        <h2>JAVASCRIPT</h2>
+                        <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.</p>
+                    </li>
+                    <li>
+                        <h2>GIT</h2>
+                        <p>O Git é um projeto de código aberto maduro e com manutenção ativa desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux. Um número impressionante de projetos de software depende do Git para controle de versão, incluindo projetos comerciais e de código-fonte aberto. Os desenvolvedores que trabalharam com o Git estão bem representados no pool de talentos de desenvolvimento de software disponíveis e funcionam bem em uma ampla variedade de sistemas operacionais e IDEs (Ambientes de Desenvolvimento Integrado).
+                            Tendo uma arquitetura distribuída, o Git é um exemplo de DVCS (portanto, Sistema de Controle de Versão Distribuído). Em vez de ter apenas um único local para o histórico completo da versão do software, como é comum em sistemas de controle de versão outrora populares como CVS ou Subversion (também conhecido como SVN), no Git, a cópia de trabalho de todo desenvolvedor do código também é um repositório que pode conter o histórico completo de todas as alterações.</p>
+                    </li>
+                    <li>
+                        <h2>PHOTOSHOP</h2>
+                        <p>O Photoshop é um software da multinacional americana Adobe Inc. usado para edição de imagens, criação de arte digital, design gráfico e animações.
 
-        <article>
-            <div class="linkedin">
-                <a><img src="./assets/background-link1.svg" alt="" width="75px">
-                    <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="35" cy="35" r="33" stroke="#2E2E2E" stroke-width="4"/>
-                        <path d="M25.5 27.5H17.5V48.5H25.5V27.5Z" fill="#2E2E2E"/>
-                        <path d="M38 27.5H30.5V48.5H38.5V36C38.8333 35.1667 40 33.5 42 33.5C44 33.5 44.5 35.1667 44.5 36V48.5H52.5V33C51 24.0001 38 27 38 31V27.5Z" fill="#2E2E2E"/>
-                        <ellipse cx="21.5" cy="21" rx="4.5" ry="4" fill="#2E2E2E"/>
-                    </svg>
-                </a>   
+                            A multiplicidade de usos do software faz com que o Photoshop seja uma ferramenta de trabalho para diversos tipos de profissionais. O programa pode ser utilizado por designers gráficos e web, fotógrafos, artistas, entre outros que necessitam de ferramentas para edição e criação de imagens digitais.
+                            Sejam profissionais ou amadores, pessoas que trabalham com artes e criatividade utilizam bastante o software em seu dia a dia. O Photoshop pode ser usado para edição e retoque de imagens, criações gráficas, inclusão de efeitos especiais e, em um nível um pouco mais básico, também permite a criação de animações e edições de vídeo.</p>
+                    </li>
+                    <li>
+                        <h2>FIGMA</h2>
+                        <p>é um editor online de design gráfico focado na criação de interfaces gráficas e experiência de usuário com ênfase colaborativa. A ferramenta permite que uma equipe de designers tenha acesso simultâneo e trabalhe em cima de um mesmo projeto ao mesmo tempo, facilitando a vida de times com profissionais em trabalho remoto em diversas localidades diferentes.
+                            O grande diferencial do serviço no mercado é a proposta integralmente online que facilita a colaboração, permitindo que uma equipe de profissionais diferentes, em locais diversos, visualize e trabalhe em modificações num projeto em tempo real. Serviços concorrentes, como o Adobe XD, não oferecem o mesmo nível de colaboração.
+                        </p>
+                    </li>
+                </ul>
             </div>
-        </article>
+        </div>
+    </section>
+</body>
+<script src="./js/skills-hover.js"></script>
 
-        <main class="introduction container">
-            <div class="introduction-image">
-                <img src="./assets/introduction-image.svg" alt="">
-            </div>
-            <div>
-                <p>Olá, me chamo</p>
-                <h1>Kamily dos Santos</h1>
-                <h2>Front-End Developer Jr</h2>
-                <p>Comecei meus estudos na área de tecnologia no ano de 2018, ao iniciar o curso integral de informática. Durante a pandemia comecei a me aprofundar na parte de Web Design.</p>
-                <a class="button usual-light"><img src="./assets/donwload.svg" alt="" height="16px">Curriculum</a>
-            </div>
-        </main>
-
-        <section class="skills-bg">
-            <div class="skills container">
-                <h1>Habilidades</h1>
-                <div class="skills-items">
-                    <ul>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H103L94.5 99L55 110L15.5 99L7 0ZM24.5 20H85L84 32.5H38L39 45H83L80 82L55 89L30 82L28.5 62.5H40.5L41.5 72.5L55 76.5L68.5 72.5L70 57H28L24.5 20Z" fill="#2E2E2E"/>
-                            </svg><span>HTML</span></li>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0H103L94.5 99L55 110L15.5 99L7 0ZM85.5 20H24.5L25.5 31.5H72.5L71.5 44L26.5 44.5L27.5 56H70.5L68.5 73L55 76.5L41.5 73L40.5 62.5H28.5L30 82L55 89L80 82L85.5 20Z" fill="#2E2E2E"/>
-                            </svg><span>CSS</span></li>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M98.5 34L88 41.5C83 32 72 34 72 41.5C72 53 102.5 52.5 102.5 75C102.5 90 93.5 96.5 82 97.5C70.5 98.5 60 92 54 82L65.5 75C67.1667 78.5 72.5 84 79.5 84C85.5 84 89 80 89 76.5C89 63 58.5 67.5 58.5 41.5C58.5 25.5 74 22 78.5 22C83 22 90.5 21.5 98.5 34Z" fill="#2E2E2E"/>
-                            <path d="M32.5 23H46.5V78.5C45.5 100.5 14.5 104.5 4.5 83.5L16 76.5C17 78.5 18 80.2857 20 82C23.5 85 31.1275 84.8917 32.5 77V23Z" fill="#2E2E2E"/>
-                            </svg><span>JAVASCRIPT</span></li>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M59.5 2.99998L107.5 51.5C110 54 110 57 107.5 59.5L60.5 106.5C57.834 109.166 53.5 109.5 50.5 106.5C46.6948 102.695 17.5 73.6666 3.50001 59.5C1.02946 57 1.34303 53.6571 3.50001 51.5C6.5066 48.4933 26.3333 28.1667 36 18.5L48 30.5C46.5 34 47.5 39 52.5 41V70.5C47.5 73 46.3333 79 49 83C52.6667 88.5 61.2812 87 63 81.5C65.5 73.5 59.5 71 59.5 71V42L70.5 53C69 57 70 63.375 77.5 64C84.5 64.5833 88.114 56.921 84.5 51.5C80.8859 46.0789 74.5 48 74.5 48L63.5 36.5C65 30.5 61 24 53 26L40.5 13.5L51 2.99998C53.5 0.50001 57 0.500002 59.5 2.99998Z" fill="#2E2E2E"/>
-                            </svg><span>GIT</span></li>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M107 32C99.0001 28.8428 85.8001 26 75.0001 32C59.5001 40.6111 63.2824 58.3912 73.5001 63.5C76.8997 65.1998 79.8948 66.3795 82.3675 67.3535C87.1683 69.2445 90.0001 70.3598 90.0001 73C90.0001 76 85.0001 79.5 69.0001 73C68.9161 72.9659 68.8266 72.9268 68.7334 72.8861C67.936 72.538 66.8582 72.0675 66.5001 73.5C66.1001 75.1 64.3334 82.5 63.5001 86C63.3493 86.633 63.5882 87.2465 64.0001 87.5C70.5001 91.5 76.8759 91.5 86.0001 91.5C96.9863 91.5 109.968 85.515 110 72.5488V72.4434C109.971 59.0111 99.6248 55.0452 94.1553 52.9487C93.7399 52.7894 93.3526 52.641 93.0001 52.5C92.0901 52.136 91.2298 51.8217 90.4312 51.5299C86.842 50.2186 84.5001 49.363 84.5001 46.5C84.5001 43 90.0001 43 93.5001 43.5C95.0667 43.7238 98.2565 44.8665 100.513 45.6749C101.822 46.1436 102.817 46.5 103 46.5C103.5 46.5 103.833 46.5 104 46C104.4 44.8 106.5 37.1667 107.5 33.5C107.5 33.0658 107.4 32.1578 107 32Z" fill="#2E2E2E"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.18136e-05 9.49998V89.8195C6.18136e-05 90.213 0.200062 91 1.00006 91H19.0001C19.4273 91.0464 20.3036 90.8752 20.3909 89.8195C20.4782 88.7639 20.4273 70.8333 20.3909 62C36.5001 62 60.5001 59.5 60.5001 33.5C60.5001 6.99998 29.7337 6.99998 29.5001 6.99998C16.5001 7 5.50006 7.99997 1.00006 8.49997C0.00617635 8.61041 -2.96795e-05 8.99997 6.18136e-05 9.49998ZM20.3909 45.5V23.5C21.0701 23.5 21.8263 23.4774 22.6356 23.4532C29.4419 23.25 40.0001 22.9346 40.0001 35C40.0001 45.8 26.9273 46.5 20.3909 45.5Z" fill="#2E2E2E"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M110 72.5L110 72.5488V72.4434L110 72.5Z" fill="#2E2E2E"/>
-                            </svg><span>PHOTOSHOP</span></li>
-                        <li><svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M77 0.5C82.3333 1.66667 93 7.3 93 20.5C93 28 91 32 84 38C90 43 93 46.5 93 56.5C93 68.5 81 75.5 72 75.5C69 75.5 63.5 74.5 58.5 70.5V91.5C58 100.5 50.5 109.5 37.5 109.5C23.5 109.5 16.5 99.5 16.5 90C16.5 81 22 75 26 72C23 69.5 16.5 65.1 16.5 55.5C16.5 45.9 22.8333 39.8333 26 38C22.8333 36 16.5 30.5 16.5 20.5C16.5 10.5 26.5 0.5 32 0.5H77ZM74.5 6.5H58.5V34H74.5C78.5 34 86.5 30.5 86.5 20.5C86.5 11.5 78.5 6.5 74.5 6.5ZM51.5 34V6.5H35C31 6.5 23.5 10.9 23.5 20.5C23.5 30.1 31 34 35 34H51.5ZM51.5 68.5V41H35C31 41 23.5 46 23.5 55.5C23.5 63.9 30.5 68.5 35 68.5H51.5ZM51.5 91.5V75.5H35C28.5 75.5 23 82.5 23 89.5C23 94.5 26 103 37.5 103C46.7 103 50.6667 95.3333 51.5 91.5ZM86.5 54.5C86.5 46.5 80 41 72 41C64 41 58.5 47 58.5 54.5C58.5 61.5 63 68.5 72 68.5C81 68.5 86.5 62.5 86.5 54.5Z" fill="#2E2E2E"/>
-                            </svg><span>FIGMA</span></li>
-                    </ul>
-                </div>
-                <div class="skills-descriptions">
-                    <ul>
-                        <li>
-                            <h2>HTML</h2>
-                            <p>Através de um documento HTML, ou seja, um documento com a extensão .html ou .htm., o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).
-                                Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.</p>
-                        </li>
-                        <li>
-                            <h2>CSS</h2>
-                            <p>é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
-                                CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação para o site.</p>
-                        </li>
-                        <li>
-                            <h2>JAVASCRIPT</h2>
-                            <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.</p>
-                        </li>
-                        <li>
-                            <h2>GIT</h2>
-                            <p>O Git é um projeto de código aberto maduro e com manutenção ativa desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux. Um número impressionante de projetos de software depende do Git para controle de versão, incluindo projetos comerciais e de código-fonte aberto. Os desenvolvedores que trabalharam com o Git estão bem representados no pool de talentos de desenvolvimento de software disponíveis e funcionam bem em uma ampla variedade de sistemas operacionais e IDEs (Ambientes de Desenvolvimento Integrado).
-                                Tendo uma arquitetura distribuída, o Git é um exemplo de DVCS (portanto, Sistema de Controle de Versão Distribuído). Em vez de ter apenas um único local para o histórico completo da versão do software, como é comum em sistemas de controle de versão outrora populares como CVS ou Subversion (também conhecido como SVN), no Git, a cópia de trabalho de todo desenvolvedor do código também é um repositório que pode conter o histórico completo de todas as alterações.</p>
-                        </li>
-                        <li>
-                            <h2>PHOTOSHOP</h2>
-                            <p>O Photoshop é um software da multinacional americana Adobe Inc. usado para edição de imagens, criação de arte digital, design gráfico e animações.
-
-                                A multiplicidade de usos do software faz com que o Photoshop seja uma ferramenta de trabalho para diversos tipos de profissionais. O programa pode ser utilizado por designers gráficos e web, fotógrafos, artistas, entre outros que necessitam de ferramentas para edição e criação de imagens digitais.
-                                Sejam profissionais ou amadores, pessoas que trabalham com artes e criatividade utilizam bastante o software em seu dia a dia. O Photoshop pode ser usado para edição e retoque de imagens, criações gráficas, inclusão de efeitos especiais e, em um nível um pouco mais básico, também permite a criação de animações e edições de vídeo.</p>
-                        </li>
-                        <li>
-                            <h2>FIGMA</h2>
-                            <p>é um editor online de design gráfico focado na criação de interfaces gráficas e experiência de usuário com ênfase colaborativa. A ferramenta permite que uma equipe de designers tenha acesso simultâneo e trabalhe em cima de um mesmo projeto ao mesmo tempo, facilitando a vida de times com profissionais em trabalho remoto em diversas localidades diferentes.
-                                O grande diferencial do serviço no mercado é a proposta integralmente online que facilita a colaboração, permitindo que uma equipe de profissionais diferentes, em locais diversos, visualize e trabalhe em modificações num projeto em tempo real. Serviços concorrentes, como o Adobe XD, não oferecem o mesmo nível de colaboração.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </body>
-    <script src="./js/skills-hover.js"></script>
 </html>

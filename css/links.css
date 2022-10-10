@@ -1,12 +1,23 @@
-.linkedin a{
-    top: 100px;
-    z-index: 2;
-    position: relative;
+.linkedin svg {
+  bottom: 140px;
+  right: 27px;
+  position: fixed;
 }
 
-.linkedin img,
-.linkedin svg {
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+.linkedin img {
+  bottom: 130px;
+  right: 20px;
+  position: fixed;
+}
+
+.github svg {
+  bottom: 30px;
+  right: 27px;
+  position: fixed;
+}
+
+.github img {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
 }

@@ -1,89 +1,97 @@
 .skills-bg {
-    background: var(--usual-dark);
-    box-shadow: inset 0 180px #ffffff;
+  background: var(--usual-dark);
+  box-shadow: inset 0 180px #ffffff;
 }
 
 .skills {
-    height: 2048px;
+  height: 2048px;
 }
 
 .skills h1 {
-    font-size: 3.2rem;
-    margin-bottom: 40px;
+  font-size: 3.2rem;
+  margin-bottom: 40px;
 }
 
 .skills h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .skills-items ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 8px;
-    align-items: center;
-    margin-bottom: 40px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 40px;
 }
 
 .skills-items ul li {
-    background-color: var(--main-light);
-    width: max-content;
-    height: 110px;
-    padding: 20px;
-    border-radius: 16px;
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    justify-content: center;
+  background-color: var(--main-light);
+  width: max-content;
+  height: 110px;
+  padding: 20px;
+  border-radius: 16px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .skills-items ul li:hover {
-    background: linear-gradient(270deg, var(--emphasize-light), var(--emphasize-dark));
+  background: linear-gradient(
+    270deg,
+    var(--emphasize-light),
+    var(--emphasize-dark)
+  );
 }
 
 .skills-items ul li:hover path {
-    fill: var(--usual-light);
-} 
-
+  fill: var(--usual-light);
+}
 
 .skills-descriptions ul {
-    list-style: none;
-    color: var(--usual-light);
+  list-style: none;
+  color: var(--usual-light);
 }
 
 .skills-descriptions li {
-    display: none;
+  display: none;
 }
 
 .skills-descriptions .active {
-    display: block;
+  display: block;
 }
 
 .focus {
-    background: linear-gradient(270deg, var(--emphasize-light), var(--emphasize-dark));
+  background: linear-gradient(
+    270deg,
+    var(--emphasize-light),
+    var(--emphasize-dark)
+  );
 }
 
 .focus path {
-    fill: var(--usual-light);
+  fill: var(--usual-light);
 }
 
 .skills-descriptions p {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .skills-items span {
-    padding: 16px;
-    color: var(--usual-light);
-    background-color: var(--usual-dark);
-    font-size: 1rem;
-    font-weight: 600;
-    position: absolute;
-    top: -25px;
-    border-radius: 16px;
-    transition: .3s;
-    opacity: 0;
+  padding: 16px;
+  color: var(--usual-light);
+  background-color: var(--usual-dark);
+  font-size: 1rem;
+  font-weight: 600;
+  position: absolute;
+  top: -25px;
+  border-radius: 16px;
+  transition: 0.3s;
+  opacity: 0;
 }
 
-.skills-items li:hover span{
-    opacity: 1;
+.skills-items li:hover span {
+  opacity: 1;
 }
