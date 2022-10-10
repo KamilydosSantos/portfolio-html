@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .header {
@@ -36,15 +37,13 @@
     width: max-content;
     text-align: right;
     font-size: 1rem;
-}
-
-.header .menu a {
     text-decoration: none;
     color: var(--usual-light);
     position: relative;
+    cursor: pointer;
 }
 
-.header .menu a::after {
+.header .menu li::after {
     content: "";
     display: block;
     height: 1px;
@@ -55,6 +54,6 @@
     position: absolute;
 }
 
-.header .menu a:hover::after {
+.header .menu li:hover::after {
     width: 100%;
 }

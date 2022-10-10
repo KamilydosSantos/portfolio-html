@@ -1,0 +1,12 @@
+.linkedin a{
+    top: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.linkedin img,
+.linkedin svg {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}

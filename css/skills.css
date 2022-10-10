@@ -3,9 +3,17 @@
     box-shadow: inset 0 180px #ffffff;
 }
 
+.skills {
+    height: 2048px;
+}
+
 .skills h1 {
     font-size: 3.2rem;
     margin-bottom: 40px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
 }
 
 .skills-items ul {
@@ -14,6 +22,7 @@
     grid-template-columns: repeat(6, 1fr);
     gap: 8px;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .skills-items ul li {
@@ -23,6 +32,9 @@
     padding: 20px;
     border-radius: 16px;
     cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .skills-items ul li:hover {
@@ -57,4 +69,21 @@
 
 .skills-descriptions p {
     font-size: 1.4rem;
+}
+
+.skills-items span {
+    padding: 16px;
+    color: var(--usual-light);
+    background-color: var(--usual-dark);
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    top: -25px;
+    border-radius: 16px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.skills-items li:hover span{
+    opacity: 1;
 }

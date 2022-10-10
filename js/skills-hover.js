@@ -1,4 +1,6 @@
 
+// habilidades
+
 const skillsItems = document.querySelectorAll('.skills-items li');
 const skillsDescriptions = document.querySelectorAll('.skills-descriptions li');
 
@@ -18,3 +20,25 @@ skillsItems.forEach((itemMenu, index) => {
         activeSkill(index);
     });
 });
+
+// header scroll
+
+const introduction = document.getElementById('introduction');
+const skills = document.getElementById('skills');
+const projects = document.getElementById('projects');
+
+function goIntroduction() {
+    window.scroll(0, 0)
+}
+
+function goSkills() {
+    window.scroll(0, 800)
+}
+
+function goProjects() {
+    window.scroll(0, 1600);
+}
+
+introduction.addEventListener('click', goIntroduction);
+skills.addEventListener('click', goSkills);
+projects.addEventListener('click', goProjects);
