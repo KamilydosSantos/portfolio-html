@@ -20,24 +20,13 @@ skillsItems.forEach((itemMenu, index) => {
   });
 });
 
-// header scroll
+//menu mobile
 
-const introduction = document.getElementById("introduction");
-const skills = document.getElementById("skills");
-const projects = document.getElementById("projects");
+const buttonMenu = document.getElementById('button-menu');
 
-function goIntroduction() {
-  window.scroll(0, 0);
+function activeMenu() {
+  const menu = document.getElementById('nav');
+  menu.classList.toggle('active-menu');
 }
 
-function goSkills() {
-  window.scroll(0, 880);
-}
-
-function goProjects() {
-  window.scroll(0, 1600);
-}
-
-introduction.addEventListener("click", goIntroduction);
-skills.addEventListener("click", goSkills);
-projects.addEventListener("click", goProjects);
+buttonMenu.addEventListener('click', activeMenu);

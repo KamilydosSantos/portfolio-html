@@ -17,13 +17,14 @@
 
 <body>
     <header class="header-bg">
-        <div class="header container">
+        <div class="header">
             <a class="logo" href="#introduction"><img src="./assets/ks_.svg" alt="" height="40px"></a>
-            <nav>
+            <nav id="nav">
+                <button id="button-menu"><img src="./assets/hamburger-menu.svg"></button>
                 <ul class="menu">
-                    <li id="introduction">início</li>
-                    <li id="skills">habilidades</li>
-                    <li id="projects">projetos</li>
+                    <li><a href="#introduction">início</li>
+                    <li><a href="#skills">habilidades</li>
+                    <li><a href="#projects">projetos</li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +51,7 @@
         </div>
     </article>
 
-    <main class="introduction container">
+    <main id="introduction" class="introduction container">
         <div class="introduction-image">
             <img src="./assets/introduction-image.svg" alt="" width="700px">
         </div>
@@ -63,7 +64,7 @@
         </div>
     </main>
 
-    <section class="skills-bg">
+    <section id="skills" class="skills-bg">
         <div class="skills container">
             <h1>Habilidades</h1>
             <div class="skills-items">

@@ -1,6 +1,6 @@
 .skills-bg {
   background: var(--usual-dark);
-  box-shadow: inset 0 180px #ffffff;
+  box-shadow: inset 0 300px #ffffff;
 }
 
 .skills {
@@ -10,6 +10,7 @@
 .skills h1 {
   font-size: 3.2rem;
   margin-bottom: 40px;
+  padding-top: 120px;
 }
 
 .skills h2 {
@@ -20,7 +21,7 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 8px;
+  gap: 20px;
   align-items: center;
   justify-items: center;
   margin-bottom: 40px;
@@ -28,14 +29,16 @@
 
 .skills-items ul li {
   background-color: var(--main-light);
-  width: max-content;
-  height: 110px;
   padding: 20px;
   border-radius: 16px;
   cursor: pointer;
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+.skills-items svg {
+  width: 100%;
 }
 
 .skills-items ul li:hover {
@@ -94,4 +97,26 @@
 
 .skills-items li:hover span {
   opacity: 1;
+}
+
+@media (max-width: 960px) {
+  .skills-bg {
+    box-shadow: inset 0 70px #ffffff;
+  }
+  .skills {
+    margin: 0 40px 0 40px;
+  }
+  .skills h1 {
+    color: var(--usual-light);
+    font-size: 2.4rem;
+  }
+  .skills-items ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-items ul {
+    grid-template-columns: 1fr 1fr;
+  }
 }

@@ -4,7 +4,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 40px;
+}
+
+.introduction-image img {
+  width: 100%;
 }
 
 .introduction h1 {
@@ -51,4 +55,23 @@
     var(--emphasize-light),
     var(--emphasize-dark)
   );
+}
+
+@media (max-width: 1044px) {
+  .introduction h1 {
+    font-size: 2.4rem;
+  }
+  .introduction p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .introduction {
+    grid-template-columns: 1fr;
+    margin: 0 40px 150px 40px;
+  }
+  .introduction-image img {
+    display: none;
+  }
 }
