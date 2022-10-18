@@ -1,0 +1,26 @@
+.projects-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.projects h1 {
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+    padding-top: 120px;
+  }
+
+.projects-cards div {
+    background-color: var(--main-light);
+    border-radius: 45px;
+}
+
+.projects-cards h2 {
+    padding: 20px 40px 20px 40px;
+    font-size: 2rem;
+}
+
+.projects-cards p {
+    font-size: 1.4rem;
+    max-width: 30ch;
+    padding: 0 40px 40px 40px;
+}

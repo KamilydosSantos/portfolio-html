@@ -22,34 +22,13 @@
             <nav id="nav">
                 <button id="button-menu"><img src="./assets/hamburger-menu.svg"></button>
                 <ul class="menu">
-                    <li><a href="#introduction">início</li>
-                    <li><a href="#skills">habilidades</li>
-                    <li><a href="#projects">projetos</li>
+                    <li><a href="#introduction">início</a></li>
+                    <li><a href="#skills">habilidades</a></li>
+                    <li><a href="#projects">projetos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <article>
-        <div class="linkedin">
-            <a href="https://www.linkedin.com/in/kamily-dos-santos-b0304a176/" target="_blank"><img src="./assets/background-link1.svg" alt="" width="85px">
-                <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="35" cy="35" r="33" stroke="#2E2E2E" stroke-width="4" />
-                    <path d="M25.5 27.5H17.5V48.5H25.5V27.5Z" fill="#2E2E2E" />
-                    <path d="M38 27.5H30.5V48.5H38.5V36C38.8333 35.1667 40 33.5 42 33.5C44 33.5 44.5 35.1667 44.5 36V48.5H52.5V33C51 24.0001 38 27 38 31V27.5Z" fill="#2E2E2E" />
-                    <ellipse cx="21.5" cy="21" rx="4.5" ry="4" fill="#2E2E2E" />
-                </svg>
-            </a>
-        </div>
-        <div class="github">
-            <a href="https://github.com/KamilydosSantos" target="_blank"><img src="./assets/background-link2.svg" alt="" width="85px">
-                <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="35" cy="35" r="33" stroke="#2E2E2E" stroke-width="4" />
-                    <path d="M46 65C42.4 67.8 29 68 24 65C25.1667 65 27.5 64.5 27.5 63.5V57.5C26 57.5 19.4212 59.5529 17 53.5C16 51 14.5 49 13 48.5C12.5 48.5 11.5 47 13.5 47C13.5 47 16.277 47.0782 17.5 49C20.9694 54.452 22.9649 54.0083 27.3826 53.0261L27.5 53C27.5 52 28 49.5 29.5 48.5C20 48.5 15.5 42.5 15.5 33.5C15.5 29.5 17 26.5 18.5 25C17.5 21.5 18 18.5 19 17C21.5 17 24 17.5 27 20C32.5 18.5 37 18.5 43 20C46 17.5 48 17 51 17C51.8333 18.3333 52.5 22 51.5 25C53 26.5 54.1666 28.5 54.5 33.5C55 41 51 48 40.5 48.5C41.7 48.9 42.5 51.5 42.5 53V63.5C42.5 64.7 44.8333 65 46 65Z" fill="#2E2E2E" />
-                </svg>
-            </a>
-        </div>
-    </article>
 
     <main id="introduction" class="introduction container">
         <div class="introduction-image">
@@ -60,7 +39,11 @@
             <h1>Kamily dos Santos</h1>
             <h2>Front-End Developer Jr</h2>
             <p>Comecei meus estudos na área de tecnologia no ano de 2018, ao iniciar o curso integral de informática. Durante a pandemia comecei a me aprofundar na parte de Web Design.</p>
-            <a class="button usual-light"><img src="./assets/donwload.svg" alt="" height="16px">Curriculum</a>
+            <div class="btn">
+                <a class="button usual-light"><img src="./assets/donwload.svg" alt="" height="16px">Curriculum</a>
+                <a class="button usual-light"><img src="./assets/icon-github.svg" alt="" height="16px">GitHub</a>
+                <a class="button usual-light"><img src="./assets/icon-linkedin.svg" alt="" height="16px">LinkedIn</a>
+            </div>
         </div>
     </main>
 
@@ -130,6 +113,41 @@
             </div>
         </div>
     </section>
+
+    <section id="projects" class="projects container">
+        <h1>Projetos</h1>
+        <div class="projects-cards">
+            <div>
+                <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                <h2>bikcraft</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div>
+                <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                <h2>bikcraft</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div>
+                <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                <h2>bikcraft</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div>
+                <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                <h2>bikcraft</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+            <div>
+                <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                <h2>bikcraft</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="height: 00px; background-color: blue">
+
+    </footer>
 </body>
 <script src="./js/skills-hover.js"></script>
 

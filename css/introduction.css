@@ -36,6 +36,11 @@
   margin-bottom: 40px;
 }
 
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
 .button {
   background-color: var(--usual-dark);
   padding: 16px;
