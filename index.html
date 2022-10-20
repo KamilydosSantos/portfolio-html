@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
@@ -116,39 +118,91 @@
 
     <section id="projects" class="projects container">
         <h1>Projetos</h1>
-        <div class="projects-cards">
-            <div>
-                <img src="./assets/project-bikcraft.png" alt="" width="400px">
-                <h2>bikcraft</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        <div class="swiper mySwiper">
+            <div class="projects-cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 5</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 6</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 7</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 8</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="card swiper-slide">
+                    <img src="./assets/project-bikcraft.png" alt="" width="400px">
+                    <h2>bikcraft 9</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
             </div>
-            <div>
-                <img src="./assets/project-bikcraft.png" alt="" width="400px">
-                <h2>bikcraft</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            <div>
-                <img src="./assets/project-bikcraft.png" alt="" width="400px">
-                <h2>bikcraft</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            <div>
-                <img src="./assets/project-bikcraft.png" alt="" width="400px">
-                <h2>bikcraft</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            <div>
-                <img src="./assets/project-bikcraft.png" alt="" width="400px">
-                <h2>bikcraft</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
     <footer style="height: 00px; background-color: blue">
 
     </footer>
-</body>
-<script src="./js/skills-hover.js"></script>
 
+    <script src="./js/skills-hover.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
 </html>

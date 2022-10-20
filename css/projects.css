@@ -1,26 +1,39 @@
-.projects-cards {
-    display: flex;
-    gap: 20px;
-}
-
 .projects h1 {
     font-size: 3.2rem;
     margin-bottom: 40px;
     padding-top: 120px;
-  }
-
-.projects-cards div {
-    background-color: var(--main-light);
-    border-radius: 45px;
 }
 
-.projects-cards h2 {
+.projects-cards .card {
+    background-color: var(--main-light);
+    border-radius: 45px;
+    width: 403px;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px 45px 0 0;
+}
+
+.card h2 {
     padding: 20px 40px 20px 40px;
     font-size: 2rem;
 }
 
-.projects-cards p {
+.card p {
     font-size: 1.4rem;
     max-width: 30ch;
     padding: 0 40px 40px 40px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--emphasize-light);
+    /* width: 10px!important;
+    height: 10px!important; */
+    font-weight: 900!important;
 }

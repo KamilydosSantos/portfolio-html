@@ -1,3 +1,12 @@
+:root {
+  --swiper-navigation-size: 20px!important;
+  --swiper-theme-color: #0B3E94!important;
+}
+
+* {
+  margin: 0;
+}
+
 body,
 ul,
 p,
