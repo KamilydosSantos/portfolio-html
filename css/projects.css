@@ -1,3 +1,7 @@
+.projects {
+    margin-bottom: 40px;
+}
+
 .projects h1 {
     font-size: 3.2rem;
     margin-bottom: 40px;
@@ -10,6 +14,7 @@
     width: 403px;
     min-width: 300px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .card img {
@@ -30,10 +35,17 @@
     padding: 0 40px 40px 40px;
 }
 
+.card:hover {
+    background: linear-gradient(
+    270deg,
+    var(--emphasize-light),
+    var(--emphasize-dark)
+  );
+  color: var(--usual-light);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
     color: var(--emphasize-light);
-    /* width: 10px!important;
-    height: 10px!important; */
     font-weight: 900!important;
 }

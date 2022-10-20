@@ -1,0 +1,38 @@
+.footer-bg {
+    background: linear-gradient(
+    270deg,
+    var(--emphasize-light),
+    var(--emphasize-dark)
+  );
+  color: var(--usual-light);
+  height: 220px!important;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer h1 {
+    padding-top: 70px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer h1 span {
+    font-weight: 400;
+}
+
+.footer .copy {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+.footer p a {
+    color: var(--usual-light);
+    text-decoration: none;
+    font-weight: 600;
+}
